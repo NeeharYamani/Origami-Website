@@ -1,0 +1,66 @@
+body{
+    background-image: url("bgk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: antiquewhite;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+h1{
+    margin-left: 650px;
+    font-family: "comic sans ms";
+}
+.sub{
+    background-color: aqua;
+    font-family:"comic sans ms";
+}
+
+
+
+.item{
+    
+    position:relative;
+    border-radius:65px;
+    background-color: white;
+
+    width:365px;
+    
+    font-family:fantasy;
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+
+   
+}
+img{
+    border-radius: 55px;
+    border:8px solid black;
+    
+}
+p{
+    margin-left:85px;
+}
+
+.item p{
+    position:absolute;
+    margin-top:50px;
+   
+    margin-right: 80px;
+    transform:translate(25%,295%);
+    color: red;
+    opacity: 0;
+    font-weight: bolder;
+    font-size: 17px;
+    }
+    .item:hover p{
+        opacity:1;
+    }
+    .item:hover img{
+        opacity:0.33;
+    }

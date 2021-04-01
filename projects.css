@@ -1,0 +1,46 @@
+body{
+    background-image: url("bgk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: antiquewhite;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+h1{
+    margin-left: 650px;
+}
+.sub{
+    background-color: aqua;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+img{
+    border-radius: 70px;
+}
+.item{
+    position:relative
+}
+.item p{
+position:absolute;
+top:50px;
+left:50px;
+transform:translate(25%,295%);
+color: red;
+opacity: 0;
+font-weight: bolder;
+font-size: 17px;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.33;
+}
